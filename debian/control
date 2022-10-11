@@ -1,0 +1,21 @@
+Source: libnumber-range-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dario Minnucci <midget@debian.org>,
+           gregor herrmann <gregoa@debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.5
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libnumber-range-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libnumber-range-perl.git
+Homepage: https://metacpan.org/release/Number-Range
+
+Package: libnumber-range-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends}
+Description: Perl extension to work with ranges of numbers
+ Number::Range will take a description of a range, and then allow you to test
+ on if a number falls within the range. You can also add and delete from the
+ range.

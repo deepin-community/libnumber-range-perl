@@ -1,0 +1,59 @@
+libnumber-range-perl (0.12-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 17:00:36 +0100
+
+libnumber-range-perl (0.12-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 20 Jun 2014 17:28:08 +0200
+
+libnumber-range-perl (0.11-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 16 May 2014 17:55:50 +0200
+
+libnumber-range-perl (0.10-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 0.10
+  * Update copyright years for upstream files
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 23 Jun 2012 09:52:47 +0200
+
+libnumber-range-perl (0.08-1) unstable; urgency=low
+
+  [ Dario Minnucci ]
+  * debian/control: 'Uploaders' updated to @d.o email address 
+  * debian/copyright: Updated with to @d.o email address
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * Switch to "3.0 (quilt)" source format.
+  * debian/copyright: update to Copyright-Format 1.0.
+  * debian/copyright: update license stanzas.
+  * Bump Standards-Version to 3.9.3 (no changes).
+  * Set debhelper compatibility level to 8.
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 08 Jun 2012 23:40:46 +0200
+
+libnumber-range-perl (0.07-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #512573)
+
+ -- Dario Minnucci (midget) <debian@midworld.net>  Sun, 15 Nov 2009 00:27:42 +0100
